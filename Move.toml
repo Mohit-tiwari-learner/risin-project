@@ -1,0 +1,15 @@
+    [package]
+    name = "PredictionMarket"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x99b9c7525747f45b8920c5a67ea47cc72cc177b6b537d918cba5c2f91da021b6'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
